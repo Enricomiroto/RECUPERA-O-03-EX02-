@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/usuario-exemplo/repositorio-exemplo/main/dados.json')
+fetch('https://github.com/Enricomiroto/RECUPERA-O-03-EX02-/blob/main/dados.json')
     .then(response => response.json())
     .then(data => {
         const ctx = document.getElementById('myChart').getContext('2d');
